@@ -1,0 +1,23 @@
+{
+  "name": "qa-week12",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandogodoy/Week12-Jest.git"
+  },
+  "author": "Alejandro Godoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandogodoy/Week12-Jest/issues"
+  },
+  "homepage": "https://github.com/alejandogodoy/Week12-Jest#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
