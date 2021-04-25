@@ -31,20 +31,8 @@ test("Divide 100 / 50 to equal 2", () => {
 
 // 6
 test("multiplicador is undefined equal to 10", () => {
-  expect(exercise.tablaMultiplicar(3)).toEqual([
-    0,
-    3,
-    6,
-    9,
-    12,
-    15,
-    18,
-    21,
-    24,
-    27,
-    30,
-  ]);
-});
+  expect(exercise.tablaMultiplicar(3)).toEqual([0,3,6,9,12,15,18,21,24,27,30]);
+})
 
 test("Multiply 5 * 2", () => {
   expect(exercise.tablaMultiplicar(5, 2)).toStrictEqual([0, 5, 10]);
