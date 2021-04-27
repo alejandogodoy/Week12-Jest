@@ -7,7 +7,7 @@ test("Add some string", () => {
 
 // 2
 test("adds 4 + 2 to equal 6", () => {
-  expect(exercise.suma(2, 6)).toBe(8);
+  expect(exercise.suma(4, 2)).toBe(6);
 });
 
 // 3
